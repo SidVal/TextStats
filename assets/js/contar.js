@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let stopWords;
 
-        fetch('assets/stops/words.json')
+        fetch('https://sidval.github.io/TextStats/assets/stops/words.json')
             .then(response => response.json())
             .then(data => {
                 stopWords = new Set(data.map(word => word.toLowerCase()));
