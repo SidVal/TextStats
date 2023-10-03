@@ -1,4 +1,7 @@
+let control = 0;
+
 document.addEventListener("DOMContentLoaded", function () {
+
 
     // Función para calcular estadísticas SEO
     function calcularEstadisticasSEO() {
@@ -32,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Cantidad de caracteres (con espacios)
                 const caracteresConEspacios = texto.length;
+                control = caracteresConEspacios;
 
                 // Cantidad de caracteres (sin espacios)
                 const caracteresSinEspacios = texto.replace(/\s/g, "").length;
@@ -48,6 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Actualizar el contador de índice de palabras
                     const indexPalabras = palabrasIndex.length;
                 //v2 fin
+
+                //v3 Verificar si el div de estadísticas SEO está vacío
+                if (control == 0) {
+                seoStatsContainer.style.display = "none";
+                } else {
+                seoStatsContainer.style.display = "block";
+                }
+                //v3 fin
 
                 // Mostrar las estadísticas
                 seoStatsContainer.innerHTML = `
@@ -82,4 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         return densidades;
     }
+
+
+
 });
