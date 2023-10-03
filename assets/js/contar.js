@@ -40,9 +40,19 @@ document.addEventListener("DOMContentLoaded", function () {
                 const palabrasClave = calcularPalabrasClave(palabrasFiltradas, 10);
                 const densidadPalabrasClave = calcularDensidadPalabrasClave(palabrasFiltradas, palabrasClave);
 
+                //v2: indexPalabras
+                    // Eliminar signos y espacios en blanco y obtener palabras restantes
+                    const palabrasSinSignos = texto.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()\s]+/g, " ");
+                    const palabrasIndex = palabrasSinSignos.trim().split(" ");
+
+                    // Actualizar el contador de índice de palabras
+                    const indexPalabras = palabrasIndex.length;
+                //v2 fin
+
                 // Mostrar las estadísticas
                 seoStatsContainer.innerHTML = `
-                    <p>Total de palabras: ${totalPalabras}</p>
+                    <p>Index de palabras: ${indexPalabras}</p>
+                    <p>Palabras bajo análisis: ${totalPalabras}</p>
                     <p>(${palabrasClave.length}) Palabras repetidas: ${palabrasClave.join(", ")}</p>
                     ${palabrasClave.map((palabra, index) => `<p>Densidad de "${palabra}": ${densidadPalabrasClave[index].toFixed(2)}%</p>`).join("")}
                     <p>Caracteres (con espacios): ${caracteresConEspacios}</p>
