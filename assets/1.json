@@ -1,0 +1,352 @@
+{
+	"post_stream": {
+		"posts": [
+			{
+				"id": 226040,
+				"name": "José Luis",
+				"username": "joseluisf",
+				"avatar_template": "/letter_avatar_proxy/v4/letter/j/ac91a4/{size}.png",
+				"created_at": "2023-09-27T11:23:00.478Z",
+				"cooked": "<p>Hola,</p>\n<p>Nos gustaría saber si existe alguna manera de poder fijar un layout de impresión para una serie de IC concretos. Queremos que un layout en concreto se fije para los IC que cumplan una serie de requisitos. ¿Sería posible?</p>\n<p>Gracias</p>\n<p>Un saludo.</p>",
+				"post_number": 1,
+				"post_type": 1,
+				"updated_at": "2023-09-27T11:23:00.478Z",
+				"reply_count": 0,
+				"reply_to_post_number": null,
+				"quote_count": 0,
+				"incoming_link_count": 4,
+				"reads": 13,
+				"readers_count": 12,
+				"score": 22.4,
+				"yours": false,
+				"topic_id": 63387,
+				"topic_slug": "fijar-layout-como-estandar-para-ic-en-concreto",
+				"display_username": "José Luis",
+				"primary_group_name": null,
+				"flair_name": null,
+				"flair_url": null,
+				"flair_bg_color": null,
+				"flair_color": null,
+				"flair_group_id": null,
+				"version": 1,
+				"can_edit": true,
+				"can_delete": false,
+				"can_recover": false,
+				"can_see_hidden_post": true,
+				"can_wiki": true,
+				"read": true,
+				"user_title": null,
+				"bookmarked": false,
+				"actions_summary": [
+					{
+						"id": 2,
+						"can_act": true
+					},
+					{
+						"id": 3,
+						"can_act": true
+					},
+					{
+						"id": 4,
+						"can_act": true
+					},
+					{
+						"id": 8,
+						"can_act": true
+					},
+					{
+						"id": 6,
+						"can_act": true
+					},
+					{
+						"id": 7,
+						"can_act": true
+					}
+				],
+				"moderator": false,
+				"admin": false,
+				"staff": false,
+				"user_id": 16364,
+				"hidden": false,
+				"trust_level": 1,
+				"deleted_at": null,
+				"user_deleted": false,
+				"edit_reason": null,
+				"can_view_edit_history": true,
+				"wiki": false,
+				"reviewable_id": 0,
+				"reviewable_score_count": 0,
+				"reviewable_score_pending_count": 0,
+				"can_accept_answer": false,
+				"can_unaccept_answer": false,
+				"accepted_answer": false,
+				"topic_accepted_answer": true
+			},
+			{
+				"id": 226041,
+				"name": "",
+				"username": "Amarcos",
+				"avatar_template": "/letter_avatar_proxy/v4/letter/a/f17d59/{size}.png",
+				"created_at": "2023-09-27T11:43:41.986Z",
+				"cooked": "<p>Hola <a class=\"mention\" href=\"/u/ivanfor\">@IvanFor</a></p>\n<p>la forma más sencilla es mediante una propiedad. La activas para todos los IC que consideres y al asignar el formato a IC seleccionas esa propiedad.</p>\n<p>Un saludo</p>",
+				"post_number": 2,
+				"post_type": 1,
+				"updated_at": "2023-09-27T11:43:41.986Z",
+				"reply_count": 0,
+				"reply_to_post_number": null,
+				"quote_count": 0,
+				"incoming_link_count": 2,
+				"reads": 12,
+				"readers_count": 11,
+				"score": 27.4,
+				"yours": false,
+				"topic_id": 63387,
+				"topic_slug": "fijar-layout-como-estandar-para-ic-en-concreto",
+				"display_username": "",
+				"primary_group_name": null,
+				"flair_name": null,
+				"flair_url": null,
+				"flair_bg_color": null,
+				"flair_color": null,
+				"flair_group_id": null,
+				"version": 1,
+				"can_edit": true,
+				"can_delete": true,
+				"can_recover": false,
+				"can_see_hidden_post": true,
+				"can_wiki": true,
+				"read": false,
+				"user_title": "Legendario ^^",
+				"title_is_group": false,
+				"bookmarked": false,
+				"actions_summary": [
+					{
+						"id": 2,
+						"count": 1,
+						"can_act": true
+					},
+					{
+						"id": 3,
+						"can_act": true
+					},
+					{
+						"id": 4,
+						"can_act": true
+					},
+					{
+						"id": 8,
+						"can_act": true
+					},
+					{
+						"id": 6,
+						"can_act": true
+					},
+					{
+						"id": 7,
+						"can_act": true
+					}
+				],
+				"moderator": false,
+				"admin": false,
+				"staff": false,
+				"user_id": 11966,
+				"hidden": false,
+				"trust_level": 2,
+				"deleted_at": null,
+				"user_deleted": false,
+				"edit_reason": null,
+				"can_view_edit_history": true,
+				"wiki": false,
+				"reviewable_id": 0,
+				"reviewable_score_count": 0,
+				"reviewable_score_pending_count": 0,
+				"can_accept_answer": false,
+				"can_unaccept_answer": true,
+				"accepted_answer": true,
+				"topic_accepted_answer": true
+			},
+			{
+				"id": 226167,
+				"name": "Jorge",
+				"username": "Vioque",
+				"avatar_template": "/letter_avatar_proxy/v4/letter/v/e95f7d/{size}.png",
+				"created_at": "2023-10-03T09:12:41.584Z",
+				"cooked": "<p>Buenos días,<br>\nTienes otra forma, en el diseñador de Layouts (Layouts y secuencia) tienes un botón “Fijar como estándar” que te permite seleccionar, no sólo IC específicos, sino también a usuarios concretos.<br>\nPuedes seleccionarlos de forma masiva por propiedades, como indica Amarcos.<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://foros.consultoria-sap.com/uploads/db7262/original/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc.png\" data-download-href=\"https://foros.consultoria-sap.com/uploads/db7262/25986fcf88644db6e4f40412b203dd2682ac54cc\" title=\"image\"><img src=\"https://foros.consultoria-sap.com/uploads/db7262/optimized/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc_2_690x482.png\" alt=\"image\" data-base62-sha1=\"5mAg9YuqoQlGIeAl4Mqi6neLt5q\" width=\"690\" height=\"482\" srcset=\"https://foros.consultoria-sap.com/uploads/db7262/optimized/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc_2_690x482.png, https://foros.consultoria-sap.com/uploads/db7262/optimized/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc_2_1035x723.png 1.5x, https://foros.consultoria-sap.com/uploads/db7262/original/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc.png 2x\" data-dominant-color=\"E9E7E4\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1037×725 52.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+				"post_number": 3,
+				"post_type": 1,
+				"updated_at": "2023-10-03T09:12:41.584Z",
+				"reply_count": 0,
+				"reply_to_post_number": null,
+				"quote_count": 0,
+				"incoming_link_count": 0,
+				"reads": 4,
+				"readers_count": 3,
+				"score": 0.8,
+				"yours": false,
+				"topic_id": 63387,
+				"topic_slug": "fijar-layout-como-estandar-para-ic-en-concreto",
+				"display_username": "Jorge",
+				"primary_group_name": null,
+				"flair_name": null,
+				"flair_url": null,
+				"flair_bg_color": null,
+				"flair_color": null,
+				"flair_group_id": null,
+				"version": 1,
+				"can_edit": true,
+				"can_delete": true,
+				"can_recover": false,
+				"can_see_hidden_post": true,
+				"can_wiki": true,
+				"link_counts": [
+					{
+						"url": "https://foros.consultoria-sap.com/uploads/db7262/original/3X/2/5/25986fcf88644db6e4f40412b203dd2682ac54cc.png",
+						"internal": true,
+						"reflection": false,
+						"clicks": 0
+					}
+				],
+				"read": false,
+				"user_title": null,
+				"bookmarked": false,
+				"actions_summary": [
+					{
+						"id": 2,
+						"can_act": true
+					},
+					{
+						"id": 3,
+						"can_act": true
+					},
+					{
+						"id": 4,
+						"can_act": true
+					},
+					{
+						"id": 8,
+						"can_act": true
+					},
+					{
+						"id": 6,
+						"can_act": true
+					},
+					{
+						"id": 7,
+						"can_act": true
+					}
+				],
+				"moderator": false,
+				"admin": false,
+				"staff": false,
+				"user_id": 26775,
+				"hidden": false,
+				"trust_level": 0,
+				"deleted_at": null,
+				"user_deleted": false,
+				"edit_reason": null,
+				"can_view_edit_history": true,
+				"wiki": false,
+				"notice": {
+					"type": "returning_user",
+					"last_posted_at": "2023-04-10T07:38:39Z"
+				},
+				"reviewable_id": 0,
+				"reviewable_score_count": 0,
+				"reviewable_score_pending_count": 0,
+				"can_accept_answer": true,
+				"can_unaccept_answer": false,
+				"accepted_answer": false,
+				"topic_accepted_answer": true
+			},
+			{
+				"id": 226175,
+				"name": "",
+				"username": "meqs",
+				"avatar_template": "/user_avatar/foros.consultoria-sap.com/meqs/{size}/766_2.png",
+				"created_at": "2023-10-03T15:40:40.197Z",
+				"cooked": "",
+				"post_number": 4,
+				"post_type": 3,
+				"updated_at": "2023-10-03T15:40:40.197Z",
+				"reply_count": 0,
+				"reply_to_post_number": null,
+				"quote_count": 0,
+				"incoming_link_count": 0,
+				"reads": 3,
+				"readers_count": 2,
+				"score": 0.6,
+				"yours": false,
+				"topic_id": 63387,
+				"topic_slug": "fijar-layout-como-estandar-para-ic-en-concreto",
+				"display_username": "",
+				"primary_group_name": null,
+				"flair_name": null,
+				"flair_url": null,
+				"flair_bg_color": null,
+				"flair_color": null,
+				"flair_group_id": null,
+				"version": 1,
+				"can_edit": true,
+				"can_delete": true,
+				"can_recover": false,
+				"can_see_hidden_post": true,
+				"can_wiki": true,
+				"read": false,
+				"user_title": "SAP SBO",
+				"title_is_group": false,
+				"bookmarked": false,
+				"actions_summary": [
+					{
+						"id": 2,
+						"can_act": true
+					},
+					{
+						"id": 3,
+						"can_act": true
+					},
+					{
+						"id": 4,
+						"can_act": true
+					},
+					{
+						"id": 8,
+						"can_act": true
+					},
+					{
+						"id": 6,
+						"can_act": true
+					},
+					{
+						"id": 7,
+						"can_act": true
+					}
+				],
+				"moderator": false,
+				"admin": false,
+				"staff": false,
+				"user_id": 22,
+				"hidden": false,
+				"trust_level": 4,
+				"deleted_at": null,
+				"user_deleted": false,
+				"edit_reason": null,
+				"can_view_edit_history": true,
+				"wiki": false,
+				"action_code": "closed.enabled",
+				"reviewable_id": 0,
+				"reviewable_score_count": 0,
+				"reviewable_score_pending_count": 0,
+				"can_accept_answer": true,
+				"can_unaccept_answer": false,
+				"accepted_answer": false,
+				"topic_accepted_answer": true
+			}
+		],
+		"stream": [
+			226040,
+			226041,
+			226167,
+			226175
+		]
+	}
+}
