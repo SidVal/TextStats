@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         // Lista de verbos comunes (stop verbs) que queremos excluir
-        const stopVerbs = ["pueden", "bailan"];
+        const stopVerbs = ["bailan","comenzar","pueden"];
 
         let stopWords;
 
