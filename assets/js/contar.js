@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let stopWords;
 
             // Cargar el archivo "verbs.json"
-            fetch('ruta/verbs.json') // Reemplaza 'ruta' con la ruta correcta hacia tu archivo
+            fetch('https://sidval.github.io/TextStats/assets/stops/verbs.json') // Reemplaza 'ruta' con la ruta correcta hacia tu archivo
             .then(response1 => response1.json())
             .then(data1 => {
             stopVerbs = new Set(data1.map(verb => verb.toLowerCase()));
